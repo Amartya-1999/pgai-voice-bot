@@ -1,0 +1,75 @@
+Call SID: CA41c7447eed2c28daa5a27866ef9f5dab
+Scenario ID: cancel_appointment
+Scenario Title: Cancel appointment
+Saved At: 2026-06-23T09:00:08.838090
+============================================================
+
+patient_bot:
+Hi, I would like some help today.
+
+pgai_agent:
+This call may be recorded for quality and training purposes.
+
+patient_bot:
+That's fine. I need to cancel an appointment.
+
+pgai_agent:
+Thanks for calling to the point Orthopedics, part of pretty good AI. Am I speaking with Kumar
+
+patient_bot:
+Yes, this is Kumar.
+
+pgai_agent:
+Please provide your data birth.
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+The birth date doesn't match our records, but for demo purposes, I'll accept it. How can I help you today?
+
+patient_bot:
+I need to cancel an appointment.
+
+pgai_agent:
+You have an appointment today with Kelly Noble MD?
+
+patient_bot:
+I need to cancel my appointment for tomorrow.
+
+pgai_agent:
+Is the 1 you want to.
+
+patient_bot:
+No, the appointment is tomorrow, not today.
+
+pgai_agent:
+I see all the appointments scheduled for today with Kelly Noble. MD, would you like to cancel this 1 or is there another appointment you want to cancel?
+
+patient_bot:
+I need to cancel my appointment for tomorrow.
+
+pgai_agent:
+I do not see an appointment for tomorrow in your records, only 1 for today with Kelly Noble MD.
+
+patient_bot:
+I need to cancel my appointment for tomorrow.
+
+pgai_agent:
+Are you sure you want to?
+
+patient_bot:
+Yes, I'm sure, but I actually made a mistake. I think I have an appointment for tomorrow. Can you check again?
+
+pgai_agent:
+I only see an appointment for today with Kelly Noble MD. There are no other upcoming appointments listed, would you like to cancel today's appointment or do you want to keep it?
+
+patient_bot:
+I need to cancel my appointment for tomorrow.
+
+pgai_agent:
+I do not see any appointment. Scheduled for tomorrow only 1 for today with Kelly Noble MD.
+
+patient_bot:
+Okay, thank you for your help. Goodbye.
+

@@ -1,0 +1,75 @@
+Call SID: CA026aad3bffcc13c96db556004e8d9dff
+Scenario ID: cancel_appointment
+Scenario Title: Cancel appointment
+Saved At: 2026-06-23T09:24:17.400677
+============================================================
+
+patient_bot:
+Hi, I would like some help today.
+
+pgai_agent:
+This call may be recorded for quality and training purposes.
+
+patient_bot:
+That's fine. I need to cancel an appointment.
+
+pgai_agent:
+Thanks for calling Pivot Point Orthopedics. Part of pretty good. AI.
+
+patient_bot:
+I need to cancel an appointment.
+
+pgai_agent:
+Am I speaking with Kumar?
+
+patient_bot:
+Yes, this is Kumar.
+
+pgai_agent:
+Please tell me your date of birth.
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+The birthday doesn't match our records, but for demo purposes, I'll accept it. How can I help you today?
+
+patient_bot:
+I need to cancel an appointment.
+
+pgai_agent:
+You have an appointment today with Kelly Noble. MD is this the 1 you want to cancel?
+
+patient_bot:
+I may have the date wrong. Is the appointment with Kelly Noble the only upcoming appointment on my account?
+
+pgai_agent:
+Yes, the only upcoming appointment on your account is with Kelly Noble, MD, scheduled for today.
+
+patient_bot:
+Then yes, please cancel today's appointment with Kelly Noble. I have a work conflict.
+
+pgai_agent:
+Do you like to cancel? Can you share the reason for canceling, your appointment with Kelly Noble MD.
+
+patient_bot:
+I have a work conflict, so I need to cancel it.
+
+pgai_agent:
+You want to cancel your appointment today with Kelly Noble MD because of a work conflict? Is that correct?
+
+patient_bot:
+Then yes, please cancel today's appointment with Kelly Noble. I have a work conflict.
+
+pgai_agent:
+Your appointment today with Kelly Noble, MD has been cancelled. Is there anything else I can help you with
+
+patient_bot:
+Thank you. Is there any cancellation fee?
+
+pgai_agent:
+There is no cancellation fee for your appointment. Today would you like to schedule a new appointment or need help with anything else?
+
+patient_bot:
+Okay, thank you for your help. Goodbye.
+
