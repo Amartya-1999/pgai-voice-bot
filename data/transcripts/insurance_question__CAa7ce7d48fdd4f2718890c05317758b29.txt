@@ -1,0 +1,75 @@
+Call SID: CAa7ce7d48fdd4f2718890c05317758b29
+Scenario ID: insurance_question
+Scenario Title: Insurance acceptance question
+Saved At: 2026-06-22T20:47:23.444835
+============================================================
+
+patient_bot:
+Hi, I would like some help today.
+
+pgai_agent:
+This call may be recorded for quality and training purposes.
+
+patient_bot:
+That's fine. I wanted to ask if you accept Blue Cross Blue Shield insurance.
+
+pgai_agent:
+Thanks for calling Pivot Point Orthopedics.
+
+patient_bot:
+I wanted to ask if you accept Blue Cross Blue Shield insurance.
+
+pgai_agent:
+Of pretty good. AI. Am I speaking with Kamar?
+
+patient_bot:
+My name is Kumar Amartya.
+
+pgai_agent:
+Please provide your date of birth.
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+I have your name as Kumar amartia and your date of birth as January 15th 1998.
+
+patient_bot:
+Kumar Amartya.
+
+pgai_agent:
+Is that correct? Could you please spell your last name for
+
+patient_bot:
+K-U-M-A-R, A-M-A-R-T-Y-A, and my date of birth is January 15th, 1998.
+
+pgai_agent:
+Would you like to use your phone number to look up your record if so, please provide the number you have on file with us if you're not sure. Let me know and we can confirm your name and date of birth again.
+
+patient_bot:
+Kumar Amartya.
+
+pgai_agent:
+Could you please spell your first and last name and confirm your date of birth 1 more time?
+
+patient_bot:
+K-U-M-A-R, A-M-A-R-T-Y-A, and my date of birth is January 15th, 1998.
+
+pgai_agent:
+I have your phone number at 229-800-6398.
+
+patient_bot:
+412-555-0198.
+
+pgai_agent:
+And your date of birth. Could you please? Clarify what you mean by for 1?
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+Are you referring to your? I have your date of birth as January 15th.
+
+patient_bot:
+Okay, thank you for your help. Goodbye.
+

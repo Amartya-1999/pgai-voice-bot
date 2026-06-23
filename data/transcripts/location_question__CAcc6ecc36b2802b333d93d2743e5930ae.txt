@@ -1,0 +1,57 @@
+Call SID: CAcc6ecc36b2802b333d93d2743e5930ae
+Scenario ID: location_question
+Scenario Title: Location and parking question
+Saved At: 2026-06-22T20:56:24.124654
+============================================================
+
+patient_bot:
+Hi, I would like some help today.
+
+pgai_agent:
+This call may be recorded for quality and training purposes.
+
+patient_bot:
+That's fine. I wanted to confirm your clinic address and parking information.
+
+pgai_agent:
+thanks for calling Pivot Point Orthopedics part of pretty good AI my speaking with Kumar
+
+patient_bot:
+Yes, this is Kumar.
+
+pgai_agent:
+Please tell me your date of birth.
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+The birthday doesn't match our records, but for demo purposes, I'll accept it. How can I help you today?
+
+patient_bot:
+I wanted to confirm the clinic address and parking information.
+
+pgai_agent:
+Edit Point Orthopedics is at 1 2 3 4 recovery way.
+
+patient_bot:
+What's the parking situation like there?
+
+pgai_agent:
+00.
+
+patient_bot:
+You're saying there's no parking available?
+
+pgai_agent:
+Sorry for any confusion, there is free patient parking available in the surface lot in front of the building.
+
+patient_bot:
+Great, how early should I arrive before the appointment?
+
+pgai_agent:
+It's best to arrive about 15 minutes before your appointment.
+
+patient_bot:
+Okay, thank you. Goodbye.
+

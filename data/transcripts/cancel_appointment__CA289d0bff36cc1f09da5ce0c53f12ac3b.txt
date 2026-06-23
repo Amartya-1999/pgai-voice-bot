@@ -1,0 +1,69 @@
+Call SID: CA289d0bff36cc1f09da5ce0c53f12ac3b
+Scenario ID: cancel_appointment
+Scenario Title: Cancel appointment
+Saved At: 2026-06-22T21:10:49.167341
+============================================================
+
+patient_bot:
+Hi, I would like some help today.
+
+pgai_agent:
+this call may be recorded for quality and training purposes, but
+
+patient_bot:
+That's fine. I need to cancel an appointment.
+
+pgai_agent:
+Thanks for calling Pivot Point Orthopedics. Part of pretty good AI. Am I speaking with Kumar
+
+patient_bot:
+Yes, this is Kumar.
+
+pgai_agent:
+Please provide your date of birth.
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+The birthday doesn't match our records, but for demo purposes, I'll accept it. How can I help you today?
+
+patient_bot:
+I need to cancel an appointment.
+
+pgai_agent:
+Scheduled with Kelly Noble MD tomorrow. June 23rd.
+
+patient_bot:
+I have a work conflict tomorrow, so I'd like to cancel that appointment.
+
+pgai_agent:
+The appointment you want.
+
+patient_bot:
+I need to cancel my appointment for tomorrow.
+
+pgai_agent:
+Can you share the reason for canceling, your appointment with Kelly Noble MD tomorrow.
+
+patient_bot:
+I need to cancel my appointment for tomorrow.
+
+pgai_agent:
+No problem. Can you tell me the reason for canceling your appointment?
+
+patient_bot:
+I need to cancel my appointment for tomorrow.
+
+pgai_agent:
+Just to confirm, you want to cancel your appointment with Kelly Noble. MD, scheduled for tomorrow. Can you share the reason for canceling?
+
+patient_bot:
+I need to cancel my appointment for tomorrow.
+
+pgai_agent:
+Understood before I proceed. Can you tell me the reason for canceling, your appointment?
+
+patient_bot:
+Okay, thank you for your help. Goodbye.
+

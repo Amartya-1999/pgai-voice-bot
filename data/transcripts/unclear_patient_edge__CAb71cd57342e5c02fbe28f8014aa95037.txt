@@ -1,0 +1,75 @@
+Call SID: CAb71cd57342e5c02fbe28f8014aa95037
+Scenario ID: unclear_patient_edge
+Scenario Title: Unclear patient changes mind
+Saved At: 2026-06-22T21:26:32.394834
+============================================================
+
+patient_bot:
+Hi, I would like some help today.
+
+pgai_agent:
+This call may be recorded for quality and training purposes.
+
+patient_bot:
+That's fine. I'd like to schedule a routine checkup for next week.
+
+pgai_agent:
+Thanks for calling Pivot Point Orthopedics. Part of pretty good. AI.
+
+patient_bot:
+I'd like to schedule a routine checkup for next week.
+
+pgai_agent:
+speaking with Kumar,
+
+patient_bot:
+Yes, this is Kumar.
+
+pgai_agent:
+Please provide your date of birth.
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+The birthday doesn't matter, records, but for demo purposes, I'll accept it.
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+How could I help you today?
+
+patient_bot:
+I'd like to schedule a routine checkup for next week.
+
+pgai_agent:
+Have a specific provider you'd like to see or are you open to any available provider?
+
+patient_bot:
+I'm open to any available provider.
+
+pgai_agent:
+Let me check for routine, checkup openings with any provider for next week.
+
+patient_bot:
+I'd like to schedule it for Tuesday morning, if available.
+
+pgai_agent:
+It looks like you already have a routine checkup appointment booked. I can help you reschedule or cancel your existing appointment or I can connect you to a team member for further help.
+
+patient_bot:
+Okay, please help me reschedule that appointment to Wednesday morning at 9:00 AM.
+
+pgai_agent:
+Like to do, would you like to reschedule your current routine checkup to Tuesday morning, or would you prefer to speak with a team member for assistance?
+
+patient_bot:
+I'd like to reschedule my current routine checkup to Wednesday morning at 9:00 AM.
+
+pgai_agent:
+Let me check for a 1-sided warning slot at 9:00 a.m. to reschedule your routine check-up.
+
+patient_bot:
+Okay, thank you for your help. Goodbye.
+

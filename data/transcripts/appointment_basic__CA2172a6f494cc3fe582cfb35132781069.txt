@@ -1,0 +1,79 @@
+Call SID: CA2172a6f494cc3fe582cfb35132781069
+Saved At: 2026-06-22T16:24:44.921485
+============================================================
+
+patient_bot:
+Hi, I would like some help today.
+
+pgai_agent:
+This call may be recorded for quality and training purposes.
+
+patient_bot:
+That's fine. I'd like to schedule a routine checkup for next week.
+
+pgai_agent:
+Thanks for calling Pivot Point Orthopedics. Part of pretty good AI. Am I speaking with Kumar
+
+patient_bot:
+I'd like to schedule a routine checkup for next week.
+
+pgai_agent:
+Please tell me your date of birth.
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+I see this as a routine office visit
+
+patient_bot:
+I'd like to schedule it for next week, preferably Tuesday morning.
+
+pgai_agent:
+I confirm that.
+
+patient_bot:
+Yes, that works for me.
+
+pgai_agent:
+Looks like you already have an office, visit scheduled so I can't book a second 1. If you want I can help with rescheduling or canceling, the existing appointment.
+
+patient_bot:
+No, let's try Wednesday morning instead, at 9:00 AM.
+
+pgai_agent:
+Let me check your upcoming appointments. First
+
+patient_bot:
+I don't have any upcoming appointments, I just want to schedule a new one for next week.
+
+pgai_agent:
+Already have an office. Visit scheduled for Tuesday, June 23rd, at 10:30 a.m. with Dr. Kelly Noble,
+
+patient_bot:
+I think there's been a mistake, I didn't have an appointment scheduled. Can you confirm my name, Kumar Amartya, and that I want to schedule a new appointment for next week?
+
+pgai_agent:
+Want I can help.
+
+patient_bot:
+I'd like to schedule the routine checkup for Wednesday morning at 9:00 AM.
+
+pgai_agent:
+Have a routine office. Visit scheduled for Tuesday, June 23rd, at 10:30 a.m. with Dr. Kelly Noble, if you want I can help reschedule that appointment to Wednesday morning at 9:00 a.m.
+
+patient_bot:
+Wednesday morning at 9:00 AM works for me.
+
+pgai_agent:
+I'll look for open slots for that appointment. Now, I found openings in Nashville.
+
+patient_bot:
+I'm looking for an appointment at Pivot Point Orthopedics, not in Nashville. Can you check again?
+
+pgai_agent:
+Is Wednesday.
+
+patient_bot:
+Okay, thank you for your help. Goodbye.
+

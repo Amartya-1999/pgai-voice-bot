@@ -1,0 +1,62 @@
+[
+  {
+    "id": "appointment_basic",
+    "type": "appointment",
+    "title": "Simple routine checkup scheduling",
+    "scenario": "You are Kumar Amartya. You want to schedule a routine checkup for next week, preferably Tuesday morning. If Tuesday morning is not available, ask for Wednesday morning around 9 AM."
+  },
+  {
+    "id": "demo_profile_identity",
+    "type": "appointment",
+    "title": "Demo patient profile and identity verification",
+    "scenario": "You are Kumar Amartya. You want to schedule a routine checkup. If the agent asks to create a demo patient profile, say yes. Use DOB January 15th, 1998 and phone number 412-555-0198. Correct the agent if it repeats wrong details."
+  },
+  {
+    "id": "weekend_appointment_edge",
+    "type": "appointment",
+    "title": "Weekend appointment edge case",
+    "scenario": "You are Sarah Patel. You want to know if you can schedule an appointment on Sunday at 10 AM. If the clinic is closed or Sunday is unavailable, ask for the next available weekday morning."
+  },
+  {
+    "id": "reschedule_existing",
+    "type": "appointment",
+    "title": "Reschedule appointment",
+    "scenario": "You are Michael Chen. You have an appointment scheduled for Friday afternoon, but you need to reschedule it to next Tuesday morning if available."
+  },
+  {
+    "id": "cancel_appointment",
+    "type": "appointment",
+    "title": "Cancel appointment",
+    "scenario": "You are Priya Shah. You need to cancel an appointment for tomorrow because of a work conflict. Ask whether there is any cancellation fee and whether you can reschedule later."
+  },
+  {
+    "id": "med_refill",
+    "type": "refill",
+    "title": "Medication refill request",
+    "scenario": "You are David Miller. You are calling to request a refill for your blood pressure medication. You are almost out and want to know if the office can send the refill to your pharmacy."
+  },
+  {
+    "id": "office_hours",
+    "type": "info",
+    "title": "Office hours question",
+    "scenario": "You are Lisa Brown. You want to ask what the office hours are this week and whether the office is open on weekends."
+  },
+  {
+    "id": "insurance_question",
+    "type": "info",
+    "title": "Insurance acceptance question",
+    "scenario": "You are Arjun Mehta. You want to ask whether the clinic accepts Blue Cross Blue Shield insurance and whether you need to bring your insurance card."
+  },
+  {
+    "id": "location_question",
+    "type": "info",
+    "title": "Location and parking question",
+    "scenario": "You are Emily Johnson. You have an upcoming appointment and want to confirm the clinic address, parking availability, and whether you should arrive early."
+  },
+  {
+    "id": "unclear_patient_edge",
+    "type": "edge",
+    "title": "Unclear patient changes mind",
+    "scenario": "You are Robert Wilson. You start by asking for an appointment next week, then clarify that you actually want a routine checkup, not an urgent visit. You are a bit hesitant but polite."
+  }
+]

@@ -1,0 +1,79 @@
+Call SID: CAb178558fb70a9c90878904130f3af4cf
+Saved At: 2026-06-22T15:19:47.090235
+============================================================
+
+patient_bot:
+Hi, I would like to schedule a routine checkup for next week.
+
+pgai_agent:
+This call may be recorded for quality and training purposes.
+
+patient_bot:
+Yes, I'm happy to create a demo patient profile.
+
+pgai_agent:
+Calling Pivot Point Orthopedics. Part of pretty good. AI.
+
+patient_bot:
+Kumar Amartya.
+
+pgai_agent:
+With Kumar.
+
+patient_bot:
+Kumar Amartya. My date of birth is January 15th, 1998.
+
+pgai_agent:
+I heard your name is Kumar omaria and your date of birth as January 15th 1998. Please spell your first and last name for me,
+
+patient_bot:
+My name is spelled K-U-M-A-R, and my last name is A-M-A-R-T-Y-A.
+
+pgai_agent:
+Do you want to use a phone number to look up your record?
+
+patient_bot:
+412-555-0198.
+
+pgai_agent:
+Tell me please provide the full phone number including the area code.
+
+patient_bot:
+412-555-0198.
+
+pgai_agent:
+I have the number as 412-555-0198 and your date of birth as January 15th 1998.
+
+patient_bot:
+I have Blue Cross Blue Shield insurance.
+
+pgai_agent:
+Let me handle the insurance update.
+
+patient_bot:
+That's fine, I'm here for my appointment.
+
+pgai_agent:
+Let me check your upcoming appointment.
+
+patient_bot:
+I'm trying to schedule a routine checkup for next week.
+
+pgai_agent:
+I can connect you to our patient support team. However, I'm a pretty good Ai and can do many of the things, an operator can do. You want to give me a try?
+
+patient_bot:
+Yes, I'd like to try scheduling the appointment with you.
+
+pgai_agent:
+Something's not right, okay connect you to our Clinic support team. Please stay on the line.
+
+patient_bot:
+Wait, I'd rather try to schedule the appointment with you. Can we try that?
+
+pgai_agent:
+You to a representative please. Wait hello you've reached the pretty good. AI test line goodbye.
+
+patient_bot:
+Okay, thank you for your help. Goodbye.
+

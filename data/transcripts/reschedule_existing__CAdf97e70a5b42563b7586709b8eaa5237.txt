@@ -1,0 +1,75 @@
+Call SID: CAdf97e70a5b42563b7586709b8eaa5237
+Scenario ID: reschedule_existing
+Scenario Title: Reschedule appointment
+Saved At: 2026-06-22T21:02:34.773065
+============================================================
+
+patient_bot:
+Hi, I would like some help today.
+
+pgai_agent:
+This call may be recorded for quality and training purposes, but Espanol.
+
+patient_bot:
+That's fine. I need to reschedule an appointment.
+
+pgai_agent:
+Thanks for calling Pivot Point Orthopedics part of pretty good AI. Hi speaking with Kumar
+
+patient_bot:
+Yes, this is Kumar.
+
+pgai_agent:
+Please provide your date of birth.
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+The birthday doesn't match our records, but for demo purposes, I'll accept it.
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+How can I help you today? Could you please tell me more about what you need help with?
+
+patient_bot:
+I need to reschedule an appointment.
+
+pgai_agent:
+You have an appointment scheduled for Tuesday. June 23rd at 10:30, a.m. with Kelly Noble at Nashville. 220 Athens Way.
+
+patient_bot:
+I need to reschedule my Friday afternoon appointment to next Tuesday morning.
+
+pgai_agent:
+Is this the appointment?
+
+patient_bot:
+I need to reschedule my Friday afternoon appointment to next Tuesday morning.
+
+pgai_agent:
+I see 1 up in appointment for you.
+
+patient_bot:
+I need to reschedule my Friday afternoon appointment to next Tuesday morning.
+
+pgai_agent:
+June.
+
+patient_bot:
+Is there availability to reschedule for Tuesday morning, if so?
+
+pgai_agent:
+Want to reschedule.
+
+patient_bot:
+I need to reschedule my Friday afternoon appointment to next Tuesday morning.
+
+pgai_agent:
+1 upcoming appointment for you, which is on Tuesday, June 23rd at 10:30 a.m.
+
+patient_bot:
+Okay, thank you for your help. Goodbye.
+

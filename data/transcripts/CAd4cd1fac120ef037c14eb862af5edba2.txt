@@ -1,0 +1,64 @@
+Call SID: CAd4cd1fac120ef037c14eb862af5edba2
+Saved At: 2026-06-22T01:03:47.358060
+============================================================
+
+patient_bot:
+Hi, I would like to schedule a routine checkup for next week.
+
+pgai_agent:
+This call may be recorded for quality and training purposes.
+
+patient_bot:
+Yes, I'm okay with that.
+
+pgai_agent:
+Sure. What first and last name should I use for the demo patient profile.
+
+patient_bot:
+Yes, I'd like to create a demo patient profile.
+
+pgai_agent:
+Great. What first and last name should I use.
+
+patient_bot:
+Kumar Amartya.
+
+pgai_agent:
+I'll create the demo patient profile. Now your patient profile has been created successfully for dental purposes. I have your date of birth as July. 4th 2000.
+
+patient_bot:
+No, it's January 15th, 1998.
+
+pgai_agent:
+You today.
+
+patient_bot:
+I'm the patient, Kumar Amartya, and I'd like to schedule a routine checkup.
+
+pgai_agent:
+Okay.
+
+patient_bot:
+My phone number is 412-555-0198.
+
+pgai_agent:
+I have your number as 412-555-5198.
+
+patient_bot:
+That's not correct, it's 412-555-0198.
+
+pgai_agent:
+Correct.
+
+patient_bot:
+I have Blue Cross Blue Shield.
+
+patient_bot:
+
+
+pgai_agent:
+Insurance update. Like now, I do not see any insurance on file right now. Would you like me to text you a light to upload photos of your insurance card? I have your number ending in 6398.
+
+patient_bot:
+Okay, thank you for your help. Goodbye.
+

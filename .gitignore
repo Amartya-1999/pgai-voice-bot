@@ -1,0 +1,17 @@
+.env
+venv/
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+# Local tooling
+ngrok.exe
+
+# Python cache/test artifacts
+.pytest_cache/
+.mypy_cache/
+
+# Optional local logs
+*.log

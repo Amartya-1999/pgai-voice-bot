@@ -1,0 +1,57 @@
+Call SID: CA589a4bd8db8a2bc4cc3b48c903802bbb
+Scenario ID: office_hours
+Scenario Title: Office hours question
+Saved At: 2026-06-22T20:43:47.341297
+============================================================
+
+patient_bot:
+Hi, I would like some help today.
+
+pgai_agent:
+This call may be recorded for quality and training purposes.
+
+patient_bot:
+That's fine. I wanted to ask about your office hours this week.
+
+pgai_agent:
+Thanks for calling Pivot Point Orthopedics. Part of pretty good AI. Am I speaking with Kamar?
+
+patient_bot:
+I wanted to ask what your office hours are this week.
+
+pgai_agent:
+our clinic is open Monday, Tuesday and Thursday from 9 a.m. to 4:00 p.m. Wednesday from 12:00 p.m. to 7:00 p.m. and Friday from 9:00 a.m. to 12:00 p.m.
+
+patient_bot:
+What are your office hours this week?
+
+pgai_agent:
+Let me know if you need it.
+
+patient_bot:
+Are you open on weekends?
+
+pgai_agent:
+We are not open on weekends. The clinic is open Monday through Friday.
+
+patient_bot:
+Are you open on weekends?
+
+pgai_agent:
+If you need help schedule, could you please finish your question?
+
+patient_bot:
+No, I don't need to schedule anything yet, I was just asking about your weekend hours, but you said you're closed.
+
+pgai_agent:
+Help. All right, let me know if you have any other questions or need help with appointments medications or anything else.
+
+patient_bot:
+I don't have any other questions, thank you.
+
+pgai_agent:
+You're welcome. Have a great day.
+
+patient_bot:
+Goodbye.
+

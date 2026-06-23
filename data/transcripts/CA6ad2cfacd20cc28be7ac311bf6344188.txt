@@ -1,0 +1,55 @@
+Call SID: CA6ad2cfacd20cc28be7ac311bf6344188
+Saved At: 2026-06-22T00:55:05.180598
+============================================================
+
+patient_bot:
+Hi, I would like to schedule a routine checkup for next week.
+
+pgai_agent:
+This call may be recorded for quality and training purposes.
+
+patient_bot:
+I'm Kumar, I'd like to schedule a routine checkup for next week.
+
+pgai_agent:
+Thank you.
+
+patient_bot:
+I'm calling for a routine checkup and was hoping to schedule it for Tuesday morning, if available.
+
+pgai_agent:
+Kumar.
+
+patient_bot:
+Is Tuesday morning available for my routine checkup?
+
+pgai_agent:
+Sure.
+
+patient_bot:
+Is there an open time slot for Tuesday morning that I can schedule my appointment for?
+
+pgai_agent:
+We have openings this week in early next week.
+
+patient_bot:
+I'd like to stick with Tuesday morning, but if it's not available, could I schedule for Wednesday morning instead?
+
+pgai_agent:
+Preferred time on.
+
+patient_bot:
+What's the time on Wednesday morning that I can schedule my routine checkup for?
+
+pgai_agent:
+We have a Wednesday morning opening what time works best for you earlier or later in the morning.
+
+patient_bot:
+Wednesday morning at 9:00 AM would be great for my routine checkup.
+
+pgai_agent:
+I can help with that. I'm not seeing your patient profile created yet. Would you like me to create a demo patient?
+
+patient_bot:
+Okay, thank you for your help. Goodbye.
+

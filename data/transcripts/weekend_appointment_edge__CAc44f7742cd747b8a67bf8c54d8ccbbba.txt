@@ -1,0 +1,81 @@
+Call SID: CAc44f7742cd747b8a67bf8c54d8ccbbba
+Scenario ID: weekend_appointment_edge
+Scenario Title: Weekend appointment edge case
+Saved At: 2026-06-22T20:59:58.190176
+============================================================
+
+patient_bot:
+Hi, I would like some help today.
+
+pgai_agent:
+This call may be recorded for quality and training purposes.
+
+patient_bot:
+That's fine. I'd like to schedule a routine checkup for next week.
+
+pgai_agent:
+Thanks for calling pit. At Point Orthopedics part of pretty good AI. Am I speaking with Kumar
+
+patient_bot:
+Yes, this is Kumar.
+
+pgai_agent:
+Please tell me your date of birth.
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+The birthday doesn't match our records, but for demo purposes, I'll accept it.
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+How can I help you today? Could you, please clarify what you need help with regarding January? Are you asking about an appointment medication or something else?
+
+patient_bot:
+I'd like to schedule a routine checkup for next week.
+
+pgai_agent:
+Do you have a specific provider? You'd like to see? Or are you open to any available provider?
+
+patient_bot:
+I'm open to any available provider.
+
+pgai_agent:
+Let me check for routine, checkup openings with any provider for next week.
+
+patient_bot:
+What's the earliest available time on Tuesday morning?
+
+pgai_agent:
+It looks like you already have a routine checkup appointment booked, I can help you reschedule or cancel your current appointment but I can't book another 1 of the same types.
+
+patient_bot:
+Okay, please help me reschedule that appointment to Wednesday morning at 9:00 AM.
+
+pgai_agent:
+Would you like to reschedule would you like to move your current routine, checkup, to the earliest available time on Tuesday Morning next week?
+
+patient_bot:
+No, I'd prefer Wednesday morning at 9:00 AM, if that's available.
+
+pgai_agent:
+Let me check if Wednesday morning at 9:00 a.m. is available for your routine, check-up, 1 moment.
+
+patient_bot:
+Wednesday morning at 9:00 AM works for me.
+
+pgai_agent:
+Since you already have a routine checkup but I can help you reschedule it to Wednesday morning at 9:00 a.m. if that flaw is open. Would you like me to connect you to a live team member to handle this change?
+
+patient_bot:
+Wednesday morning at 9:00 AM works for me.
+
+pgai_agent:
+I'm unable to reschedule directly but I'll connect you to a live team member who can move your appointment to Wednesday at 9:00 a.m. please hold while I transfer you.
+
+patient_bot:
+Okay, thank you for your help. Goodbye.
+

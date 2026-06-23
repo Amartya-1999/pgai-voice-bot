@@ -1,0 +1,66 @@
+Call SID: CA4eef08d8bf44055036e5e9b0410e5324
+Scenario ID: demo_profile_identity
+Scenario Title: Demo patient profile and identity verification
+Saved At: 2026-06-22T21:18:40.779143
+============================================================
+
+patient_bot:
+Hi, I would like some help today.
+
+pgai_agent:
+This call may be recorded for quality and training purposes.
+
+patient_bot:
+That's fine. I'd like to schedule a routine checkup for next week.
+
+pgai_agent:
+Thanks for calling Pivot Point Orthopedics. Part of pretty good. AI.
+
+patient_bot:
+I'd like to schedule a routine checkup for next week.
+
+pgai_agent:
+Am I speaking of Kumar?
+
+patient_bot:
+Kumar Amartya.
+
+pgai_agent:
+Please provide your date of birth.
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+Name is Kumar amartia and your date of birth as January 15th 1998. Is that correct?
+
+patient_bot:
+January 15th, 1998.
+
+pgai_agent:
+if so, please could you please spell your first and last name for me
+
+patient_bot:
+K-U-M-A-R, A-M-A-R-T-Y-A, and my date of birth is January 15th, 1998.
+
+pgai_agent:
+Would you like to use your phone number to look up your record if so, please provide the number you have on file with us.
+
+patient_bot:
+229-800-6398.
+
+pgai_agent:
+If you're not sure, could you please confirm your first name last name and date of birth 1 more time, please spell out your first and last name and state, your date of birth.
+
+patient_bot:
+K-U-M-A-R, A-M-A-R-T-Y-A, and my date of birth is January 15th, 1998.
+
+pgai_agent:
+Your name is Kumar and Marcia, your date of birth as January, 15th, 1998, and your phone number as 229-800-6398 is all that correct.
+
+patient_bot:
+Kumar Amartya.
+
+patient_bot:
+Okay, thank you for your help. Goodbye.
+
