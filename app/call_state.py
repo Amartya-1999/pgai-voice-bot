@@ -14,6 +14,7 @@ def create_call_state(
         "turn": 0,
         "history": [],
         "transcript": [],
+        "rule_state": {},
     }
 
 

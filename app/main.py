@@ -125,7 +125,11 @@ async def voice_respond(
         response.hangup()
         return Response(content=str(response), media_type="application/xml")
 
-    rule_reply = get_rule_based_reply(SpeechResult, state["scenario"])
+    rule_reply = get_rule_based_reply(
+        SpeechResult,
+        state["scenario"],
+        state.setdefault("rule_state", {}),
+    )
 
     if rule_reply:
         next_patient_message = rule_reply

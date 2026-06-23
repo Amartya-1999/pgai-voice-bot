@@ -83,7 +83,152 @@ def get_goal_statement(scenario_text: str) -> str:
     return "I'd like to schedule a routine checkup for next week."
 
 
-def get_rule_based_reply(agent_text: str, scenario_text: str) -> str | None:
+def _cancel_reply(reply: str, cancel_state: dict) -> str:
+    """Remember the last cancellation reply so generic prompts cannot loop forever."""
+
+    if reply != cancel_state.get("last_reply"):
+        cancel_state["last_reply"] = reply
+        return reply
+
+    fallback_count = cancel_state.get("fallback_count", 0)
+    fallbacks = (
+        "Could you confirm which upcoming appointment you found so I can cancel the correct one?",
+        "I'm unable to resolve the appointment date. Please connect me with a staff member who can help.",
+        "Okay, I won't make any changes today. Thank you. Goodbye.",
+    )
+    reply = fallbacks[min(fallback_count, len(fallbacks) - 1)]
+    cancel_state["fallback_count"] = fallback_count + 1
+    cancel_state["last_reply"] = reply
+    return reply
+
+
+def get_cancel_reply(agent_text: str, rule_state: dict) -> str | None:
+    """Advance the deterministic cancellation conversation."""
+
+    text = agent_text.lower()
+    cancel_state = rule_state.setdefault(
+        "cancel",
+        {
+            "target_date": "tomorrow",
+            "reason_given": False,
+            "date_conflict_seen": False,
+            "confirmed": False,
+            "fee_asked": False,
+            "reschedule_asked": False,
+        },
+    )
+
+    # Finish follow-up questions after the cancellation itself is complete.
+    if cancel_state["reschedule_asked"]:
+        return _cancel_reply("Great, thank you for your help. Goodbye.", cancel_state)
+
+    if cancel_state["fee_asked"] and ("fee" in text or "charge" in text):
+        cancel_state["reschedule_asked"] = True
+        return _cancel_reply(
+            "Understood. Would I be able to call back and reschedule later?",
+            cancel_state,
+        )
+
+    cancellation_complete = any(
+        phrase in text
+        for phrase in (
+            "has been canceled",
+            "has been cancelled",
+            "is canceled",
+            "is cancelled",
+            "successfully canceled",
+            "successfully cancelled",
+            "cancellation is complete",
+        )
+    )
+    if cancellation_complete:
+        cancel_state["fee_asked"] = True
+        return _cancel_reply("Thank you. Is there any cancellation fee?", cancel_state)
+
+    asks_for_confirmation = any(
+        phrase in text
+        for phrase in (
+            "confirm",
+            "are you sure",
+            "before i proceed",
+            "want me to cancel",
+            "would you like to cancel",
+        )
+    )
+
+    # Reconcile the scenario's date with the appointment the receptionist found.
+    today_conflict = (
+        "today" in text
+        and ("appointment" in text or "scheduled" in text)
+        and not cancellation_complete
+    )
+    if today_conflict:
+        if not cancel_state["date_conflict_seen"]:
+            cancel_state["date_conflict_seen"] = True
+            return _cancel_reply(
+                "I may have the date wrong. Is the appointment with Kelly Noble the only upcoming appointment on my account?",
+                cancel_state,
+            )
+
+        cancel_state["target_date"] = "today"
+        cancel_state["reason_given"] = True
+        if asks_for_confirmation:
+            cancel_state["confirmed"] = True
+            return _cancel_reply(
+                "Yes, I confirm that I want to cancel today's appointment with Kelly Noble.",
+                cancel_state,
+            )
+        return _cancel_reply(
+            "Then yes, please cancel today's appointment with Kelly Noble. I have a work conflict.",
+            cancel_state,
+        )
+
+    asks_for_reason = "reason" in text or "why" in text
+    if asks_for_reason and ("cancel" in text or "appointment" in text):
+        cancel_state["reason_given"] = True
+        return _cancel_reply(
+            "I have a work conflict, so I need to cancel it.",
+            cancel_state,
+        )
+
+    if asks_for_confirmation:
+        cancel_state["confirmed"] = True
+        target = cancel_state["target_date"]
+        return _cancel_reply(
+            f"Yes, I confirm that I want to cancel the appointment for {target}.",
+            cancel_state,
+        )
+
+    # If the appointment is found, volunteer the reason instead of restating only the goal.
+    if "tomorrow" in text and ("appointment" in text or "scheduled" in text):
+        cancel_state["reason_given"] = True
+        return _cancel_reply(
+            "Yes, that's the appointment. I have a work conflict, so I'd like to cancel it.",
+            cancel_state,
+        )
+
+    if "reschedule" in text:
+        return _cancel_reply(
+            "Not right now. I just want to cancel it for now.",
+            cancel_state,
+        )
+
+    # Keep this broad rule last. Include the reason so it still moves the flow forward.
+    if "cancel" in text or "appointment" in text:
+        cancel_state["reason_given"] = True
+        return _cancel_reply(
+            "I need to cancel my appointment for tomorrow because of a work conflict.",
+            cancel_state,
+        )
+
+    return None
+
+
+def get_rule_based_reply(
+    agent_text: str,
+    scenario_text: str,
+    rule_state: dict | None = None,
+) -> str | None:
     """
     Returns a deterministic patient reply for common receptionist prompts.
     If no rule matches, return None and let the LLM handle it.
@@ -94,6 +239,7 @@ def get_rule_based_reply(agent_text: str, scenario_text: str) -> str | None:
 
     text = agent_text.lower()
     goal = get_goal_from_scenario(scenario_text)
+    rule_state = rule_state if rule_state is not None else {}
 
     # Identity confirmation must happen before generic greeting.
     if (
@@ -225,14 +371,7 @@ def get_rule_based_reply(agent_text: str, scenario_text: str) -> str | None:
 
     # Cancel appointment flow
     if goal == "cancel":
-        if "fee" in text or "charge" in text:
-            return "Is there a cancellation fee?"
-
-        if "cancel" in text or "appointment" in text:
-            return "I need to cancel my appointment for tomorrow."
-
-        if "reschedule" in text:
-            return "Not right now. I just want to cancel it for now."
+        return get_cancel_reply(agent_text, rule_state)
 
     # Reschedule appointment flow
     if goal == "reschedule":
