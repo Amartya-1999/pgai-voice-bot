@@ -1,4 +1,4 @@
-# Pretty Good AI Voice Bot Challenge
+# AI Bot Testing Framework
 
 This project is an automated Python voice bot built for the Pretty Good AI AI Engineering Challenge.
 
