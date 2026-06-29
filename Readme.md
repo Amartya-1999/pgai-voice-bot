@@ -1,6 +1,6 @@
 # AI Bot Testing Framework
 
-This project is an automated Python voice bot built for the Pretty Good AI AI Engineering Challenge.
+This project is an automated Python voice bot built for the Pretty Good AI Bot
 
 The bot places real outbound phone calls to the Pretty Good AI phone agent, simulates realistic patient conversations, records the calls, saves transcripts, and helps identify product and conversation-quality issues in the phone agent.
 
